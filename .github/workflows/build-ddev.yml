@@ -136,8 +136,8 @@ jobs:
       CARGO: cargo
       CARGO_BUILD_TARGET: ${{ matrix.job.target }}
       PYAPP_REPO: pyapp
-      PYAPP_VERSION: "0.24.0"
-      PYAPP_SHA256: "10cd152500685ddea610a8e280f3ca5502c4cff072bfb344cb9abd88a0c40928"
+      PYAPP_VERSION: "0.31.0"
+      PYAPP_SHA256: "16bc883dd936584eef8d0d838feef3e839c340f201f36cc05eb810f29df92c22"
       PYAPP_PIP_EXTERNAL: "1"
 
     steps:
